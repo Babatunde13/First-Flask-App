@@ -6,10 +6,44 @@
 		body{
 			background-color: rgba(120,  110, 90, 0.5);
 		}
+		input{
+			border-radius: 5em;
+			width: 10em;
+			height: 2em;
+			border: 200em;
+			margin: 1em;
+		}
+
+		/*input[text]{
+			border-right: 10px;
+			padding: 2em;
+			margin: 3em;
+		*/}
+		form{
+			display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	width: 10%;
+		}
+
+		input[type=text]{
+			input[type=text]{
+    width: 70%;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-sizing: border-box;
+	resize: vertical;
+	margin-top: 3%;
+	background-color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+		}
 	</style>
 </head>
 <body>
-	<form>
+	<form action="POST">
 		<div>
 			<span>Email: </span>
 			<input type="text" name="Name", placeholder="John Doe">
@@ -22,7 +56,7 @@
 
 		<div>
 			
-			<input type="Submit" name="Submit", placeholder="Submit">
+			<input type="Submit" value="Login", placeholder="">
 		</div>
 	</form>
 </body>
