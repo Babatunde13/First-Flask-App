@@ -102,6 +102,44 @@ input:focus {
   text-align: center;
   font-size: 0.85em;
 }
+.form-field {
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+}
+.form-field label {
+  display: block;
+  margin-bottom: 10px;
+}
+.form-field input[type="email"],
+input[type="password"] {
+  width: -webkit-fill-available;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #e8e8e8;
+}
+.form-field input::placeholder {
+  color: #e8e8e8;
+}
+.form-field input:focus {
+  border: 1px solid #AE00FF;
+}
+.form-field input[type="checkbox"] {
+  display: inline-block;
+}
+.form-options {
+  display: block;
+  margin: auto;
+  width: 300px;
+}
+.checkbox-field {
+  display: inline-block;
+  float: left;
+}
+.form-options a {
+  float: right;
+  text-decoration: none;
+}
 
 	</style>
 </head>
