@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,13 +9,7 @@
 background: #f9f9f9; /* fallback for old browsers */
 font-family: "Raleway", sans-serif;
 color: #151515;
-background-color: #ffff00
-}
-
-body {
-  background: #f9f9f9; /* fallback for old browsers */
-  font-family: "Raleway", sans-serif;
-  color: #151515;
+background-color: rgba(2, 4, 8, 0.4);
 }
 a {
   color: black;
@@ -99,6 +94,13 @@ input:focus {
   box-shadow: 0px 3px 1px #0000000f;
   border: 1px solid #e2e2e2;
 }
+form{
+  border: 0.5% ;
+  border-radius: 1em;
+  border-top: 50px;
+  margin: 10em 13em 50px 13em;
+
+}
 .sign-in-section p {
   text-align: center;
   font-size: 0.85em;
@@ -127,6 +129,7 @@ input[type="password"] {
 }
 .form-field input[type="checkbox"] {
   display: inline-block;
+  border-top: 300px;
 }
 .form-options {
   display: block;
@@ -136,6 +139,7 @@ input[type="password"] {
 .checkbox-field {
   display: inline-block;
   float: left;
+
 }
 .form-options a {
   float: right;
@@ -159,14 +163,16 @@ input[type="password"] {
 }
 .links a:nth-child(1) {
   float: left;
+  margin-left: 32%; 
 }
 .links a:nth-child(2) {
   float: right;
+  margin-right: 32%; 
 }
 	</style>
 </head>
 <body>
-	<form action="POST">
+	<form action="#">
 
 	    <div class="form-field">
 	          <label for="email">Email</label>
@@ -195,8 +201,8 @@ input[type="password"] {
 				<div class="links">
 				        <a href="#">Privacy Policy</a>
 				        <a href="#">Terms & Conditions</a>
-				      </div>
+			</div>
 
-	      </form>
+	 </form>
 </body>
 </html>
