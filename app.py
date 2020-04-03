@@ -6,9 +6,9 @@ app = Flask('__name__')
 def hello():
 	return '<h1>Hello world!</h1>'
 
-@app.route('/about')
+@app.route('/login')
 def about():
-	return render_template('about.html')
+	return render_template('login.html')
 
 if __name__ == '__main__':
 	app.run(port=5001, debug=True)
