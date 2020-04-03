@@ -1,1 +1,1 @@
-# Simple Login page built with Flask 
+# Simple Login and SignUp page built with Flask 
